@@ -1,5 +1,6 @@
 
-# Personal base template for JS client-side app
+# Minimal 
+minimalistic template for JS client-side app
 
 * yarn (npm should work as well)
 * babel (ES6)
