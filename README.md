@@ -8,7 +8,7 @@ minimalistic template for JS client-side app
 * webpack-dev-server
 
 
-### `yarn install`
+### `yarn install` or `npm install`
 - install dev dependencies
 
 ### `yarn run dev`
