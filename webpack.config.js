@@ -1,29 +1,13 @@
-
 const path = require('path');
 
-
-
-const config = {
+module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'app.js',
-        publicPath: 'temp/' // for webpack-dev-server output
+        filename: 'app.js'
     },
-    module: {
-        rules: [{ test: /\.(js|jsx)$/, use: 'babel-loader' }]
-    },
+    devtool: 'inline-cheap-source-map',
     resolve: {
-        alias: {
-            src: path.resolve(__dirname, 'src')
-        }
-    },
-    devtool: "eval",
-    devServer: {
-        contentBase: path.join(__dirname, "dev"),
-        compress: true,
-        port: 9000
+        modules: [path.resolve(__dirname, "src"), "node_modules"]
     }
-};
-
-module.exports = config;
+};;

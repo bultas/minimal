@@ -1,19 +1,14 @@
 
-# Minimal 
+# Minimal
 minimalistic template for JS client-side app
 
-* yarn (npm should work as well)
-* babel (ES6)
-* webpack 2
-* webpack-dev-server
+* Only modern browser support
+* ECMAScript 6
+* Webpack 3
 
-
-### `yarn install` or `npm install`
+### `npm install`
 - install dev dependencies
 
-### `yarn run dev`
-- start dev server with hot-reload
-- go to http://localhost:9000/
-
-### `yarn run build`
-- build app to /dist
+### `npm start`
+- start watch
+- rebuild after files change

@@ -1,4 +1,4 @@
 
-import { hello } from 'src/helloWorld';
+import { sayHello } from 'hello';
 
-hello()
+sayHello();
