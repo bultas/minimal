@@ -1,5 +1,5 @@
+import { HELLO } from 'constants';
 
-
-export function sayHello() {
-    console.log('Hello World');
+export function sayHello(extra) {
+    return `${HELLO}${extra}`;
 }
