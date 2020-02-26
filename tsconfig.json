@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+      "checkJs": true,
+      "target": "es2016",
+      "allowJs": true,
+      "noEmit": true,
+      "moduleResolution": "node"
+  }
+}
