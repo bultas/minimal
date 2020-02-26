@@ -8,6 +8,13 @@ const getScripts = dir =>
     return `${dir}${file}`;
   });
 
+const getModuleName = directory => path => {
+  const parts = path.split("/");
+  const index = parts.findIndex(e => e === directory) + 1;
+  const name = parts[index];
+  return name;
+};
+
 export default {
   input: getScripts("./scripts/"),
   output: {
@@ -18,17 +25,11 @@ export default {
   },
   manualChunks(id) {
     if (id.includes("node_modules")) {
-      const parts = id.split("/");
-      const index = parts.findIndex(e => e === "node_modules") + 1;
-      const name = parts[index];
-      return name;
+      return getModuleName("node_modules")(id);
     }
 
     if (id.includes("custom_modules")) {
-      const parts = id.split("/");
-      const index = parts.findIndex(e => e === "custom_modules") + 1;
-      const name = parts[index];
-      return name;
+      return getModuleName("custom_modules")(id);
     }
   },
   plugins: [
@@ -40,7 +41,7 @@ export default {
       open: true,
       contentBase: ["dist", "public"],
       headers: {
-        "Cache-Control": "max-age=3600"
+        // "Cache-Control": "max-age=3600"
       }
     })
   ]
