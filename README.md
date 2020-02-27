@@ -16,6 +16,8 @@
 
 ### Code Examples
 
+DEMO: https://minimal.bultas.now.sh/
+
 * native Web Components
 * File structure with custom_modules
 * CSS :defined transitions
