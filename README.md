@@ -21,6 +21,7 @@
 * CSS :defined transitions
 * Prefetch
 * Basic routing (with Transition)
+* CSS variables for Web Components styling
 * more..
 
 ### TODO
