@@ -18,7 +18,7 @@ const getModuleName = directory => path => {
 export default {
   input: getScripts("./scripts/"),
   output: {
-    dir: "./dist/",
+    dir: "./public/scripts/",
     format: "es",
     chunkFileNames: "[name].js", // "[name]-[hash].js"
     sourcemap: true
@@ -39,7 +39,7 @@ export default {
     }),
     serve({
       open: true,
-      contentBase: ["dist", "public"],
+      contentBase: ["public"],
       headers: {
         // "Cache-Control": "max-age=3600"
       }

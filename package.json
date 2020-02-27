@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " rm -rf ./dist/ && NODE_ENV=development rollup --config -w"
+    "start": " rm -rf ./public/scripts/ && NODE_ENV=development rollup --config -w"
   },
   "author": "",
   "license": "ISC",
