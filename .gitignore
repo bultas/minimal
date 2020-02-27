@@ -1,7 +1,6 @@
 
-dist
+public/scripts
 node_modules
-
 jsconfig.json
 .DS_Store
 .vscode
