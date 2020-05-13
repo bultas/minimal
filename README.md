@@ -1,8 +1,7 @@
 # Minimal
+Minimalistic & Modern JavaScript Development Stack
 
-## Minimalistic & Modern JavaScript Development Stack
-
-### Features
+## Features
 
 * No framework, No Dependencies (runtime)
 * JS analysis and type control (without TypeScript)
@@ -15,11 +14,11 @@
 * Production ready compilation
 
 
-### Usage
+## Usage
 
 `npm start` to run build and dev server.
 
-### Code Examples
+## Code Examples
 
 DEMO: https://minimal.bultas.now.sh/
 
@@ -31,6 +30,6 @@ DEMO: https://minimal.bultas.now.sh/
 * CSS variables for Web Components styling
 * more..
 
-### TODO
+## TODO
 
 * Handling Tests (Unit, E2E)
