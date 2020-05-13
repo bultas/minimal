@@ -14,6 +14,11 @@
 * Support for node_modules
 * Production ready compilation
 
+
+### Usage
+
+`npm start` to run build and dev server.
+
 ### Code Examples
 
 DEMO: https://minimal.bultas.now.sh/
