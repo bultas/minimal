@@ -1,4 +1,8 @@
 /**
+ * @typedef { import("./types").Person } Person
+ */
+
+/**
  * @param {string} name
  * @returns {string}
  */
@@ -7,7 +11,7 @@ export function hello(name) {
 }
 
 /**
- * @param { import("./types.d").Person } person
+ * @param { Person } person
  */
 export function bye(person) {
   return `Bye ${person.name}`;
