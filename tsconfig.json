@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-      "checkJs": true,
-      "target": "es2016",
-      "allowJs": true,
-      "noEmit": true,
-      "moduleResolution": "node"
+    "checkJs": true,
+    "target": "es6",
+    "allowJs": true,
+    "noEmit": true,
+    "moduleResolution": "node"
   }
 }
