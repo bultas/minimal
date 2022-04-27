@@ -3,15 +3,15 @@
 Minimalistic JavaScript development stack
 
 - No framework, No Dependencies (runtime)
-- JS analysis and type control (without TypeScript)
-- Native JS modules (import/ES6 modules)
+- JS analysis and type check (no config, no .ts files needed)
+- Native ES modules (import/ES6 modules)
+- Support for node_modules imports
 - Tree Shaking
 - Automatic module chunks (imported as JS modules)
-- Minimal Bundler config (Rollup, but can be in Webpack etc.)
-- Development server (with serve static, sourcemaps)
-- Support for node_modules imports
+- Minimal bundler config (Rollup, but can be Webpack etc.)
+- optional Development server (with serve static, sourcemaps)
 - Production ready compilation
-- Unit testing
+- Unit testing via `npm test`
 
 ## Demo as example
 

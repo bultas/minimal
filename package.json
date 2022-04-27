@@ -2,7 +2,7 @@
   "name": "minimal",
   "version": "1.0.0",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --recursive ./modules/**/*.test.js",
     "start": " rm -rf ./public/scripts/ && NODE_ENV=development rollup --config -w"
   },
   "author": "Daniel Bultas",
