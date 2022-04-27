@@ -3,7 +3,7 @@
 Minimalistic JavaScript development stack
 
 - No framework, No Dependencies (runtime)
-- JS analysis and type check (no config, no .ts files needed)
+- JS analysis and [type check](https://github.com/bultas/minimal/blob/master/modules/hello/index.js) (no config, no .ts files needed, jsdoc compatible)
 - Native ES modules (import/ES6 modules)
 - Support for node_modules imports
 - Tree Shaking
