@@ -9,8 +9,9 @@ Minimalistic JavaScript development stack
 - Automatic module chunks (imported as JS modules)
 - Minimal Bundler config (Rollup, but can be in Webpack etc.)
 - Development server (with serve static, sourcemaps)
-- Support for node_modules
+- Support for node_modules imports
 - Production ready compilation
+- Unit testing
 
 ## Demo as example
 
@@ -25,7 +26,3 @@ https://minimal.bultas.now.sh
 - Basic routing (with Transition)
 - CSS variables for Web Components styling
 - more..
-
-## TODO
-
-- Handling Tests (Unit, E2E)
